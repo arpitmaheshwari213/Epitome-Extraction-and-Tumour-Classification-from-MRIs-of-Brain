@@ -1,0 +1,27 @@
+{% if error_message %}
+    <p><strong>{{error_message}}</strong></p>
+{%endif%}
+
+  <h1>Brain Tumour Classification Model</h1>
+  <h3>Project Developers:-</h3>
+  <ul>
+    <li><h4>Vansh Jain</h4></li>
+    <li><h4>Chayan Dhaddha</h4></li>
+    <li><h4>Anuraag Kansara</h4></li>
+    <li><h4>Arpit Maheshwari</h4></li>
+
+      <a href="/media/report/finalreport.pdf" target="_blank"> <button id="know_more"><label>Know More</label></button></a>
+
+  </ul>
+
+ <br>
+  <h2>Please select the MRI of Brain as input (in Nifti(3-D) format) :-</h2>
+  <form method="post" enctype="multipart/form-data" name="input_file" action="{%url 'brain_cancer:process'%}">
+      {% csrf_token %}
+      <h3>Selected File :-</h3>
+      <input type="file" id="input_image" name="input_image" required>
+      <br><br><button type="reset" id="reset"><label>Reset</label></button>
+      <button type="submit" id="submit"><label>Upload</label></button>
+  </form>
+
+

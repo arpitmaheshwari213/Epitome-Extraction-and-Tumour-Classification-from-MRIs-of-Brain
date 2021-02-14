@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Brain Cancer</title>
+</head>
+<body>
+{% if error_message %}
+    <p><strong>{{error_message}}</strong></p>
+{%endif%}
+{% if str %}
+    <h3>Output : {{ str }}</h3>
+{% endif %}
+{% if uploaded_file_url %}
+<h3>Image shown below:- </h3>
+     <img src="{{uploaded_file_url}}.jpg">
+{% endif %}
+</body>
+</html>
