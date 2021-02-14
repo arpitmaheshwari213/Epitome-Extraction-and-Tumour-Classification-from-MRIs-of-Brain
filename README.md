@@ -6,6 +6,14 @@ A CNN based model for medical 3D NIfTI MRI of the brain. Firstly, an image prepr
 The trained model was big in size (480 MB), so can be downloaded from assets of release v1.0 and copy it in `/tumour_detection/lib/` and then can run the project.
 Or otherwise you can build a model and save it using the functions written in `/tumour_detection/lib/` files.
 ##### For more details look into references and project report `TumorClassificationFinalReport.pdf`
+
+### Developers
+1. Arpit Maheshwari
+2. Vansh Jain
+3. Chayan Dhaddha
+4. Anuraag Kansara
+5. Piyush Sharma
+
 ### Technology Stack:
 * Python
 * R
