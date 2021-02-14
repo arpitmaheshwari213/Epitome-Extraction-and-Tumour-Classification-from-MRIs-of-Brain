@@ -3,8 +3,8 @@ The project is to design a simple open-source scripted software that depends on 
 
 A CNN based model for medical 3D NIfTI MRI of the brain. Firstly, an image preprocessing pipeline is developed in which Skull Strapping, Inhomogeneity Correction, and Registration are done on MRIs. The processed images are fed into a Convolutional Neural Network which extracts features from them. Then 3D CNN model was built on the preprocessed images using Keras. These features are used as an input to an Artificial Neural Network which classifies the grade of disease i.e. malignant or benign. Finally, the epitome of the tumor was extracted from MRIs and the size of the tumor is also predicted. 
 
-Trained model was big in size (480 MB), so can be downloaded from releases and copy it in `/tumour_detection/lib/` and then can run the project.
-Or otherwise you can build a model and save it using the functions wriiten in `/tumour_detection/lib/` files.
+The trained model was big in size (480 MB), so can be downloaded from releases and copy it in `/tumour_detection/lib/` and then can run the project.
+Or otherwise you can build a model and save it using the functions written in `/tumour_detection/lib/` files.
 ##### For more details look into references and project report `TumorClassificationFinalReport.pdf`
 ### Technology Stack:
 * Python
