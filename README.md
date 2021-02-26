@@ -1,5 +1,5 @@
 # Epitome-Extraction-and-Tumour-Classification-from-MRIs-of-Brain 
-The project is to design a simple open-source scripted software that depends on a minimum no. of software platforms and is dedicated to the diagnosis of a disease by extracting epitomes from the medical image. It is also presented at Smart India Hackathon 2018 developed in Feb-Apr 2018.
+The project is to design a simple open-source scripted software that depends on a minimum no. of software platforms and is dedicated to the diagnosis of a disease by extracting epitomes from the medical image. It is also presented at Smart India Hackathon 2018 developed in Feb-May 2018.
 
 A CNN based model for medical 3D NIfTI MRI of the brain. Firstly, an image preprocessing pipeline is developed in which Skull Strapping, Inhomogeneity Correction, and Registration are done on MRIs. The processed images are fed into a Convolutional Neural Network which extracts features from them. Then 3D CNN model was built on the preprocessed images using Keras. These features are used as an input to an Artificial Neural Network which classifies the grade of disease i.e. malignant or benign. Finally, the epitome of the tumor was extracted from MRIs and the size of the tumor is also predicted. 
 
